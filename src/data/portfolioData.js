@@ -7,14 +7,14 @@ export const personalInfo = {
   avatarUrl: "/avatar.png",
   contact: {
     email: "akashonline24hours@gmail.com",
-    phone: "+880 1700-000000",
-    whatsapp: "+8801700000000",
+    phone: "+880 1700-862715",
+    whatsapp: "+880 1700-862715",
   },
   socials: {
-    github: "https://github.com",
-    linkedin: "https://linkedin.com",
+    github: "https://github.com/akashonline24hour",
+    linkedin: "https://www.linkedin.com/in/akash-chandra-paul-24-online",
     twitter: "https://twitter.com",
-    facebook: "https://facebook.com",
+    facebook: "https://www.facebook.com/akashchandrapaulofficial",
   },
 };
 
