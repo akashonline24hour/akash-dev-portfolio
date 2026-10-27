@@ -1,30 +1,35 @@
 "use client";
 
 import { useState } from "react";
-import { Code, Server, Wrench, Layers } from "lucide-react";
+import { FaCode, FaServer, FaWrench, FaLayerGroup } from "react-icons/fa6";
 
 const allSkills = [
-  { name: "React.js", level: 92, category: "Frontend", icon: Code },
-  { name: "Next.js", level: 88, category: "Frontend", icon: Layers },
-  { name: "JavaScript / TS", level: 90, category: "Frontend", icon: Code },
-  { name: "Tailwind CSS", level: 95, category: "Frontend", icon: Layers },
-  { name: "HTML5 & CSS3", level: 95, category: "Frontend", icon: Code },
-  { name: "Node.js", level: 85, category: "Backend", icon: Server },
-  { name: "Express.js", level: 87, category: "Backend", icon: Server },
-  { name: "MongoDB", level: 82, category: "Backend", icon: Server },
-  { name: "PostgreSQL", level: 78, category: "Backend", icon: Server },
-  { name: "Git & GitHub", level: 90, category: "Tools & DevOps", icon: Wrench },
+  { name: "React.js", level: 92, category: "Frontend", icon: FaCode },
+  { name: "Next.js", level: 88, category: "Frontend", icon: FaLayerGroup },
+  { name: "JavaScript / TS", level: 90, category: "Frontend", icon: FaCode },
+  { name: "Tailwind CSS", level: 95, category: "Frontend", icon: FaLayerGroup },
+  { name: "HTML5 & CSS3", level: 95, category: "Frontend", icon: FaCode },
+  { name: "Node.js", level: 85, category: "Backend", icon: FaServer },
+  { name: "Express.js", level: 87, category: "Backend", icon: FaServer },
+  { name: "MongoDB", level: 82, category: "Backend", icon: FaServer },
+  { name: "PostgreSQL", level: 78, category: "Backend", icon: FaServer },
+  {
+    name: "Git & GitHub",
+    level: 90,
+    category: "Tools & DevOps",
+    icon: FaWrench,
+  },
   {
     name: "VS Code & Postman",
     level: 94,
     category: "Tools & DevOps",
-    icon: Wrench,
+    icon: FaWrench,
   },
   {
     name: "Docker & Vercel",
     level: 75,
     category: "Tools & DevOps",
-    icon: Wrench,
+    icon: FaWrench,
   },
 ];
 
@@ -46,12 +51,16 @@ export default function SkillsAndExperience() {
       <div className="max-w-7xl mx-auto px-6">
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-12 space-y-3">
+          <div className="inline-flex items-center space-x-2 px-3.5 py-1 rounded-full bg-indigo-950/60 border border-indigo-500/30 text-indigo-300 text-xs font-semibold tracking-wide">
+            <span className="w-2 h-2 rounded-full bg-indigo-400 animate-pulse"></span>
+            <span>TECHNICAL PROFICIENCY</span>
+          </div>
           <h2 className="text-3xl md:text-4xl font-extrabold text-slate-100 tracking-tight">
             Skills & Tech Stack
           </h2>
           <p className="text-slate-400 text-sm md:text-base">
-            Visual proficiency breakdown across my core technologies and
-            developer tools[cite: 5].
+            Visual proficiency breakdown across my core technologies, framework
+            stack, and developer tools.
           </p>
         </div>
 
