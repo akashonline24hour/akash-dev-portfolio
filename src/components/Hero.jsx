@@ -26,7 +26,7 @@ export default function Hero({ info }) {
             </h2>
             <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-slate-100 leading-[1.1]">
               Crafting robust web applications with{" "}
-              <span className="bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-500 bg-clip-text text-transparent">
+              <span className="bg-linear-to-r from-indigo-400 via-purple-400 to-pink-500 bg-clip-text text-transparent">
                 modern code.
               </span>
             </h1>
@@ -41,7 +41,7 @@ export default function Hero({ info }) {
             <a
               href={info.resumeUrl}
               download="Akash_Chandra_Paul_Resume.pdf"
-              className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-bold text-sm hover:opacity-90 transition-all shadow-lg shadow-indigo-600/30"
+              className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-linear-to-r from-indigo-600 to-purple-600 text-white font-bold text-sm hover:opacity-90 transition-all shadow-lg shadow-indigo-600/30"
             >
               <FaDownload className="w-4 h-4" /> Download Resume
             </a>
@@ -102,7 +102,7 @@ export default function Hero({ info }) {
         <div className="flex-1 flex justify-center">
           <div className="relative group">
             {/* Animated Glow Border */}
-            <div className="absolute -inset-1.5 rounded-3xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 blur-lg opacity-40 group-hover:opacity-75 transition duration-500" />
+            <div className="absolute -inset-1.5 rounded-3xl bg-linear-to-r from-indigo-500 via-purple-500 to-pink-500 blur-lg opacity-40 group-hover:opacity-75 transition duration-500" />
 
             {/* Image Container Card */}
             <div className="relative rounded-3xl p-3 border bg-slate-900 border-slate-800 shadow-2xl">
