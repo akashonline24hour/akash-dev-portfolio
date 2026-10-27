@@ -14,7 +14,41 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Akash Chandra Paul | Full-Stack Web Developer",
   description:
-    "Portfolio of Akash Chandra Paul - Full-Stack Developer specialized in Next.js, React, Node.js, and MongoDB.",
+    "Portfolio of Akash Chandra Paul - Full-Stack Developer specializing in Next.js, React, Node.js, and MongoDB.",
+  keywords: [
+    "Akash Chandra Paul",
+    "Full-Stack Developer",
+    "Next.js Portfolio",
+    "React Developer",
+    "Node.js Developer",
+    "MongoDB",
+    "Tailwind CSS",
+  ],
+  authors: [{ name: "Akash Chandra Paul" }],
+  openGraph: {
+    title: "Akash Chandra Paul | Full-Stack Web Developer",
+    description:
+      "Crafting robust web applications with modern code, Next.js, and Tailwind CSS.",
+    url: "https://akashchandrapaul.vercel.app",
+    siteName: "Akash Chandra Paul Portfolio",
+    images: [
+      {
+        url: "/avatar.png",
+        width: 1200,
+        height: 630,
+        alt: "Akash Chandra Paul Portfolio",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Akash Chandra Paul | Full-Stack Web Developer",
+    description:
+      "Crafting robust web applications with modern code, Next.js, and Tailwind CSS.",
+    images: ["/avatar.png"],
+  },
   icons: {
     icon: "/icon.svg",
     shortcut: "/icon.svg",
