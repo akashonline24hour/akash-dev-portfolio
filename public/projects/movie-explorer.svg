@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-movie" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#311042" />
+    </linearGradient>
+    <linearGradient id="accent-movie" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="450" fill="url(#bg-movie)" />
+
+  <!-- Glow effect -->
+  <circle cx="400" cy="225" r="190" fill="#a855f7" opacity="0.15" filter="blur(50px)" />
+  <rect x="40" y="40" width="720" height="370" rx="20" fill="#0f172a" stroke="#581c87" stroke-width="2" opacity="0.85" />
+
+  <!-- Film Strip / Play Symbol Graphics -->
+  <circle cx="400" cy="160" r="45" fill="url(#accent-movie)" />
+  <polygon points="392,145 418,160 392,175" fill="#ffffff" />
+
+  <!-- Title & Description -->
+  <text x="400" y="245" text-anchor="middle" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="36" font-weight="800">
+    Movie Explorer
+  </text>
+  <text x="400" y="285" text-anchor="middle" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="17" font-weight="500">
+    Vite + React 18 + TVMaze REST API
+  </text>
+
+  <!-- Tech Badges -->
+  <rect x="230" y="320" width="100" height="32" rx="8" fill="#2e1065" stroke="#a855f7" stroke-width="1.5" />
+  <text x="280" y="341" text-anchor="middle" fill="#e9d5ff" font-family="system-ui, sans-serif" font-size="13" font-weight="600">React 18</text>
+
+  <rect x="350" y="320" width="100" height="32" rx="8" fill="#1e1b4b" stroke="#3b82f6" stroke-width="1.5" />
+  <text x="400" y="341" text-anchor="middle" fill="#bfdbfe" font-family="system-ui, sans-serif" font-size="13" font-weight="600">Vite</text>
+
+  <rect x="470" y="320" width="100" height="32" rx="8" fill="#2e1065" stroke="#c084fc" stroke-width="1.5" />
+  <text x="520" y="341" text-anchor="middle" fill="#f3e8ff" font-family="system-ui, sans-serif" font-size="13" font-weight="600">TVMaze</text>
+</svg>

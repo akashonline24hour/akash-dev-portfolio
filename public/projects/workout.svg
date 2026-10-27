@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-workout" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#064e3b" />
+    </linearGradient>
+    <linearGradient id="accent-workout" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="450" fill="url(#bg-workout)" />
+
+  <!-- Glow effect -->
+  <circle cx="400" cy="225" r="190" fill="#10b981" opacity="0.12" filter="blur(50px)" />
+  <rect x="40" y="40" width="720" height="370" rx="20" fill="#0f172a" stroke="#065f46" stroke-width="2" opacity="0.85" />
+
+  <!-- Workout Icon Graphic -->
+  <rect x="330" y="145" width="140" height="12" rx="6" fill="#334155" />
+  <rect x="310" y="125" width="20" height="52" rx="4" fill="url(#accent-workout)" />
+  <rect x="470" y="125" width="20" height="52" rx="4" fill="url(#accent-workout)" />
+
+  <!-- Title & Description -->
+  <text x="400" y="240" text-anchor="middle" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="36" font-weight="800">
+    Workout Library
+  </text>
+  <text x="400" y="280" text-anchor="middle" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="17" font-weight="500">
+    Next.js + Exercise REST API
+  </text>
+
+  <!-- Tech Badges -->
+  <rect x="290" y="320" width="100" height="32" rx="8" fill="#064e3b" stroke="#10b981" stroke-width="1.5" />
+  <text x="340" y="341" text-anchor="middle" fill="#a7f3d0" font-family="system-ui, sans-serif" font-size="13" font-weight="600">Next.js</text>
+
+  <rect x="410" y="320" width="100" height="32" rx="8" fill="#1e1b4b" stroke="#6366f1" stroke-width="1.5" />
+  <text x="460" y="341" text-anchor="middle" fill="#c7d2fe" font-family="system-ui, sans-serif" font-size="13" font-weight="600">REST API</text>
+</svg>

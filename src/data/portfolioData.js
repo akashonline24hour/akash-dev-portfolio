@@ -71,3 +71,74 @@ export const experienceData = [
     technologies: ["Next.js", "React", "Node.js", "Tailwind CSS", "MongoDB"],
   },
 ];
+
+export const projectsData = [
+  {
+    id: "bazardor",
+    title: "BazarDor (বাজার দর)",
+    category: "Full-Stack",
+    summary:
+      "A modern daily market price tracking application for real-time commodity rate updates.",
+    description:
+      "BazarDor is a web platform that enables users to track daily market prices across various categories. Built with modern authentication, database integration, and responsive UI components.",
+    image: "/projects/bazardor.svg",
+    technologies: [
+      "Next.js",
+      "Better-Auth",
+      "MongoDB",
+      "Tailwind CSS",
+      "Vercel",
+    ],
+    liveUrl: "https://akashonline24hour-bazar-dor.vercel.app",
+    githubUrl: "https://github.com/akashonline24hour/bazar-dor",
+    features: [
+      "Secure user authentication with Google & GitHub providers",
+      "Real-time daily product price tracking and category management",
+      "Responsive design with dark mode support",
+      "MongoDB database integration using custom adapters",
+    ],
+  },
+  {
+    id: "workout-library",
+    title: "Next.js Workout Library",
+    category: "Frontend",
+    summary:
+      "An interactive web app for discovering exercise routines and fitness programs.",
+    description:
+      "A responsive workout library application fetching exercise data asynchronously from a REST API with dynamic searching and category filtering.",
+    image: "/projects/workout.svg",
+    technologies: ["Next.js", "React", "Tailwind CSS", "REST API"],
+    liveUrl: "https://fitlog-app-lemon.vercel.app",
+    githubUrl: "https://github.com/akashonline24hour/fitlog-app",
+    features: [
+      "Asynchronous REST API data fetching",
+      "Dynamic search and exercise category filtering",
+      "Responsive grid cards with exercise breakdown",
+    ],
+  },
+  {
+    id: "movie-explorer",
+    title: "Movie Explorer",
+    category: "Frontend",
+    summary:
+      "A dynamic TV show & movie discovery app powered by Vite, React Router, and TVMaze API.",
+    description:
+      "Movie Explorer is a high-performance web application built with React 18, Vite, and Tailwind CSS. It leverages the TVMaze REST API for fetching real-time show schedules, detailed cast info, ratings, and genre filtering with smooth client-side routing.",
+    image: "/projects/movie-explorer.svg",
+    technologies: [
+      "React 18",
+      "React Router v6",
+      "Vite",
+      "Tailwind CSS",
+      "TVMaze API",
+    ],
+    liveUrl: "https://movie-explorer-ten-chi.vercel.app",
+    githubUrl: "https://github.com/akashonline24hour/movie-explorer",
+    features: [
+      "Real-time movie and TV show data fetching via TVMaze REST API",
+      "Client-side single-page routing with React Router v6",
+      "Blazing-fast modern build setup powered by Vite",
+      "Clean UI styling with Tailwind CSS and modern Lucide React icons",
+    ],
+  },
+];

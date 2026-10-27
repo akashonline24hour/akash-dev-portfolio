@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Education from "@/components/Education";
 import SkillsAndExperience from "@/components/SkillsAndExperience";
+import Projects from "@/components/Projects";
 import { personalInfo } from "@/data/portfolioData";
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <About />
       <Education />
       <SkillsAndExperience />
+      <Projects />
     </main>
   );
 }
