@@ -13,8 +13,8 @@ export default function About() {
             About Me
           </h2>
           <p className="text-slate-400 text-sm md:text-base">
-            Learn more about my programming journey, passion, and life outside
-            coding[cite: 5].
+            A closer look at my programming journey, technical focus, and life
+            outside of code.
           </p>
         </div>
 
@@ -29,10 +29,10 @@ export default function About() {
               My Programming Journey
             </h3>
             <p className="text-slate-400 text-sm leading-relaxed">
-              I wrote my first line of code during my freshman year of college.
-              What started as curiosity quickly turned into a deep passion for
-              web development, software architectures, and scalable full stack
-              applications[cite: 5].
+              What started as sheer curiosity quickly evolved into a dedicated
+              commitment to software engineering. Today, I focus on building
+              robust, scalable full-stack applications with a strong emphasis on
+              clean code architecture and modern web standards.
             </p>
           </div>
 
@@ -45,10 +45,11 @@ export default function About() {
               Work I Enjoy
             </h3>
             <p className="text-slate-400 text-sm leading-relaxed">
-              I thrive when creating reactive user interfaces in Next.js/React
-              and building microservices in Node.js. I love solving algorithmic
-              challenges, building design systems, and crafting accessible
-              UX[cite: 5].
+              I thrive when engineering high-performance, reactive user
+              interfaces with Next.js and Tailwind CSS, backed by efficient
+              backend services. I love tackling complex logic, refining
+              component design systems, and delivering seamless user
+              experiences.
             </p>
           </div>
 
@@ -61,9 +62,10 @@ export default function About() {
               Hobbies & Interests
             </h3>
             <p className="text-slate-400 text-sm leading-relaxed">
-              Outside of code, I am an active landscape photographer, avid chess
-              player, and table tennis enthusiast. Exploring nature and keeping
-              up with tech podcasts keep me balanced[cite: 5].
+              When I am not writing code, you can find me exploring landscape
+              photography, sharpening my tactical focus through chess, or
+              playing table tennis. Immersing myself in nature and listening to
+              tech podcasts keeps me balanced and inspired.
             </p>
           </div>
         </div>
